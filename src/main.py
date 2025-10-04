@@ -14,7 +14,7 @@ from firebase_admin import storage
 
 from datetime import datetime
 
-cred = credentials.Certificate("serviceAccountKey.json")
+cred = credentials.Certificate("../serviceAccountKey.json")
 firebase_admin.initialize_app(cred, {
     'databaseURL': 'https://faceattendance-84476-default-rtdb.asia-southeast1.firebasedatabase.app/',
     "storageBucket": "faceattendance-84476.firebasestorage.app"
@@ -26,10 +26,10 @@ cap = cv2.VideoCapture(0)  # coba 0 dulu
 cap.set(3, 640)
 cap.set(4, 480)
 
-imgBackground = cv2.imread('Resources/background.png')
+imgBackground = cv2.imread('../Resources/background.png')
 
 # Importing the mode images into a list
-folderModePath = 'Resources/Modes'
+folderModePath = '../Resources/Modes'
 modePathList = os.listdir(folderModePath)
 imgModeList = []
 for path in modePathList:
@@ -39,7 +39,7 @@ for path in modePathList:
 
 # Load the encoding file
 print("Loading Encode file...")
-file = open('EncodeFile.p', 'rb')
+file = open('../EncodeFile.p', 'rb')
 encodeListKnownWithIds = pickle.load(file)
 file.close()
 encodeListKnown, studentIds = encodeListKnownWithIds

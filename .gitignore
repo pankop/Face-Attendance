@@ -21,3 +21,6 @@ Thumbs.db
 
 # Firebase service account (jangan sampai kepush)
 serviceAccountKey.json
+
+__pycache__/
+*.pyc
