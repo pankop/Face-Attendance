@@ -13,7 +13,7 @@ data = {
     "5026231082":
         {
             "name": "Naufal Zaky Nugraha",
-            "major": "Information System",
+            "major": "IS",
             "starting_year": 2023,
             "total_attendance": 7,
             "standing": "6",
@@ -23,7 +23,7 @@ data = {
     "5026231151":
         {
             "name": "Kayla Nathania Azzahra",
-            "major": "Information System",
+            "major": "IS",
             "starting_year": 2023,
             "total_attendance": 7,
             "standing": "6",
@@ -33,7 +33,7 @@ data = {
 "5026231170":
         {
             "name": "Tahiyyah Mufhimah",
-            "major": "Information System",
+            "major": "IS",
             "starting_year": 2023,
             "total_attendance": 7,
             "standing": "6",
