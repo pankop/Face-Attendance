@@ -39,7 +39,7 @@ for path in modePathList:
 
 # Load the encoding file
 print("Loading Encode file...")
-file = open('../EncodeFile.p', 'rb')
+file = open('EncodeFile.p', 'rb')
 encodeListKnownWithIds = pickle.load(file)
 file.close()
 encodeListKnown, studentIds = encodeListKnownWithIds
