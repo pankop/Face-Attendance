@@ -38,7 +38,7 @@ def findEncodings(imagesList):
         encode = fr.face_encodings(img)[0]
         encodeList.append(encode)
 
-        return encodeList
+    return encodeList
 
 print("Encoding Started ...")
 encodeListKnown = findEncodings(imgList)
