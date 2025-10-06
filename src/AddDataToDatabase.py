@@ -13,7 +13,7 @@ data = {
     "5026231082":
         {
             "name": "Naufal Zaky Nugraha",
-            "major": "IS",
+            "major": "Sisfor",
             "starting_year": 2023,
             "total_attendance": 7,
             "standing": "6",
@@ -23,7 +23,7 @@ data = {
     "5026231151":
         {
             "name": "Kayla Nathania Azzahra",
-            "major": "IS",
+            "major": "Sisfor",
             "starting_year": 2023,
             "total_attendance": 7,
             "standing": "6",
@@ -33,7 +33,7 @@ data = {
 "5026231170":
         {
             "name": "Tahiyyah Mufhimah",
-            "major": "IS",
+            "major": "Sisfor",
             "starting_year": 2023,
             "total_attendance": 7,
             "standing": "6",
